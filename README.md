@@ -19,8 +19,7 @@ A professional IPv4 subnet calculator written in **Bash**. Designed for network 
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/igonzalez357/subnetting-calculator.git](https://github.com/igonzalez357/subnetting-calculator.git)
-   cd subnetting-calculator
+   git clone https://github.com/igonzalez357/Subnet-Calculator.git
    ```
 2. Grant execution permissions:
    ```bash
@@ -34,7 +33,7 @@ Run the script by passing an IP address in CIDR notations as an argument
 ## Sample Output
    ```
    IP address to parse:      192.168.1.0/24
-	Binary IP:                11000000.10101000.00000001.00000000
+   Binary IP:                11000000.10101000.00000001.00000000
 
 		Net mask:         255.255.255.0
 		Wildcard Mask:    0.0.0.255
